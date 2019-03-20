@@ -1,32 +1,76 @@
-.App {
-  text-align: center;
+/* ////////////////////////////////////////////
+/////////////// HOME PAGE CSS /////////////////
+/////////////////////////////////////////////*/
+
+
+.custom-container{
+    width: 50%;
+    margin-bottom: 5px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.header{
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-bottom: 10px;
+   margin-top : 5px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title{
+    background-color:cornsilk;
+    padding: 5px;
+    border-radius: 5px ;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.text-body{
+    background-color: azure;
+    padding: 5px;
+    margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-body{
+    -moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background-color:#ededed;
+	-moz-border-radius:21px;
+	-webkit-border-radius:21px;
+	border-radius:21px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#5593a3;
+	font-family:Arial;
+	font-size:17px;
+	padding:4px 42px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+    margin-left: 200px;
+}
+
+.button-body:hover {
+	background-color:#bab1ba;
+}
+.button-body:active {
+	position:relative;
+	top:1px;
+}
+
+/* ////////////////////////////////////////////
+/////////////// COMMENT PAGE CSS //////////////
+/////////////////////////////////////////////*/
+
+.comment-title{
+    background-color: #bab1ba;
+}
+
+.comment-body{
+   background-color: beige;
+   margin-top: 5px;
 }
